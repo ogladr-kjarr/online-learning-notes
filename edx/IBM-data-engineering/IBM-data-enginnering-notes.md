@@ -49,3 +49,27 @@ This took five and a half hours to complete and write up my notes.
 ## Python Basics for Data Science
 
 ### Module One: Python Basics
+
+This was an acceptable module to introduce someone to programming. There was nothing new for me here.
+
+### Module Two: Python Data Structures
+
+Another acceptable module to indroduce the basic data structures in Python. There was nothing new for me here.
+
+### Module Three: Python Programming Fundamentals
+
+Touching on classes, objects, exception handling, this was a good module to build on the previous. There was nothing new for me here.
+
+### Module Four: Working with Data in Python
+
+Having used Pandas a little in the past, this was still a good module for introducing how it works with .loc and .iloc, and I was surprised to find that Pandas can read CSV files from the internet.
+
+video one dimensional numpy
+
+### Module Five: APIs and Data Collection
+
+### Thoughts on the course
+
+The videos and text pages were comprehensive for the basics of Python, and the notebooks for learning and trying out what has been learned practically were well made. I feel there could have been more problems to work through, rather than examples in the practical notebooks, but that is the only improvement I would seek.
+
+Time: 2 hours;4;
