@@ -48,28 +48,17 @@ This took five and a half hours to complete and write up my notes.
 
 ## Python Basics for Data Science
 
-### Module One: Python Basics
+This was an introductory course to Python. There was nothing new for me here, however it served as a memory jolt as I haven't used Python in a long time. The use of notebooks for labs was very good I felt.
 
-This was an acceptable module to introduce someone to programming. There was nothing new for me here.
+This took eight hours to complete, taking in all the videos and tutorials and labs.
 
-### Module Two: Python Data Structures
+## Python for Data Engineering Project
 
-Another acceptable module to indroduce the basic data structures in Python. There was nothing new for me here.
+ETL, web scraping, query databases, creating an ETL pipeline
 
-### Module Three: Python Programming Fundamentals
+This course was really focused on the projects, and both were fun. They both required web scraping, and creating a Python function based ETL pipeline in a single document. 
 
-Touching on classes, objects, exception handling, this was a good module to build on the previous. There was nothing new for me here.
+The practise project is called 'etl_project_gdp.ipynb' and is located in this folder. The final project is called '' and is also located in this folder. 
 
-### Module Four: Working with Data in Python
 
-Having used Pandas a little in the past, this was still a good module for introducing how it works with .loc and .iloc, and I was surprised to find that Pandas can read CSV files from the internet.
-
-video one dimensional numpy
-
-### Module Five: APIs and Data Collection
-
-### Thoughts on the course
-
-The videos and text pages were comprehensive for the basics of Python, and the notebooks for learning and trying out what has been learned practically were well made. I feel there could have been more problems to work through, rather than examples in the practical notebooks, but that is the only improvement I would seek.
-
-Time: 2 hours;4;
+4;3;4;1
