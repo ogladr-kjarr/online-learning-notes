@@ -54,11 +54,8 @@ This took eight hours to complete, taking in all the videos and tutorials and la
 
 ## Python for Data Engineering Project
 
-ETL, web scraping, query databases, creating an ETL pipeline
-
 This course was really focused on the projects, and both were fun. They both required web scraping, and creating a Python function based ETL pipeline in a single document. 
 
-The practise project is called 'etl_project_gdp.ipynb' and is located in this folder. The final project is called '' and is also located in this folder. 
+The practise project is called 'etl_project_gdp.ipynb' and is located in this folder. The final project is called 'etl_project_banks.ipynb' and is also located in this folder. 
 
-
-4;3;4;1
+This took six hours to complete.
