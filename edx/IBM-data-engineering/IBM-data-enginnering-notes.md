@@ -59,3 +59,33 @@ This course was really focused on the projects, and both were fun. They both req
 The practise project is called 'etl_project_gdp.ipynb' and is located in this folder. The final project is called 'etl_project_banks.ipynb' and is also located in this folder. 
 
 This took six hours to complete.
+
+## Relational Database Basics
+
+### Module One: Relational Database Concepts (with a bit of module two)
+
+When modelling a database, there is a logical (information) model and a physical (data) model. The logical model, in the form of an ERD, abstracts the complexity of real world entities, helps to understand business concepts and rules and is the blueprint from which the physical model is created. The physical model defines the data element types, constraints, relationships and all the logical design in the SQL specific to the RDBMS you are using.
+
+The relational model allows for logical, physical, and physical storage independence. Logical allows for conceptual changes (DDL) without having to change external schemas or programs above it. Physical allows for indexes and other physical attributes without a change to the conceptual/logical schema. Physical storage means that where the backend data is stored doesn't effect the physical or logical spaces.
+
+The database architecure deployment topology could tbe single tier, client server, three tier, or cloud based. The deployment topology of the architecture can include hardware and software configuration, and network components, depending on factors like scalability, performance, and reliability. Single tier has the database, the app, and the UI on the same server. Client server has the UI on one server, the app and database on another. Three tier further sepearates the app from the database server. There is also cloud deployment.
+
+Distributed or clustered architecture can lead to enhances like scalability, fault tolerance, and performance, whether shared disk, shared nothing, replication, partitioning, and sharding.
+
+When creating a data model there are constraints that help ensure integrity. Primary key creation for entity integrity constraint, ensuring records can be identified within a table. Referential integrity, using foreign keys to ensure correct links between tables. Domain constraint, using domain knowledge to ensure meaningfulness of the data, e.g. a cell can only have a certain range of values. Default values, null constraints can also be good. Not necessarily in the data model, but using views to allow specialized access to subsets of the data for security/privacy, and efficiency is also handy.
+
+### Module Two: Using Relational Databases
+
+This module introduced DDL and DML statements, nothing new to me in those that were presented. What was handy was the reminder of the first to third normal forms:
+* First: Each row must be unique, each cell contains a single value
+* Second: Seperate tables for sets of values
+* Third: eliminate columns that do not depend on the key
+
+### Module Three:
+
+Rather than do the final project in their online editor which wasn't very user friendly I decided to use a different datasource, the Framework Archaeology [dataset](https://framearch.co.uk/t5/data-downloads/raw-data-downloads/). The diagram and files are included in this folder as XX and YY. I used DrawDB to create the ERD.
+
+Intereting changes in the DDL I found, like replacing the primary key series command.
+
+
+It took 3 and a half hours without the final project. Creating the ERD diagram took a[TIME] due to the number of and size of some of the tables.
