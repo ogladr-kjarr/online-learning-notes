@@ -40,7 +40,7 @@ In the product table the product type is dependant on the product category, not 
 
 In the staff table I will not create a link to the sales outlet for location id, as the textual entries may indicate another source, though this would imply that there is duplicate data in the system, unless the sales outlet table also links to this unknown source. 
 
-#### The Outcome
+#### Thoughs on the Course
 
 Annoyingly the ERD tool in pgAdmin doesn't support composite foreign keys in the click to create menu.
 
