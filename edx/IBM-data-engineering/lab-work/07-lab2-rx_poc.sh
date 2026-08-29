@@ -1,8 +1,9 @@
 #! /bin/bash
 
-touch rx_poc.log
-header=$(echo -e "year\tmonth\tday\tobs_temp\tfc_temp")
-echo $header > rx_poc.log
+#touch rx_poc.log
+#header=$(echo -e "year\tmonth\tday\tobs_temp\tfc_temp")
+#echo $header > rx_poc.log
+
 cityname="Casablanca"
 curl -s wttr.in/$cityname?T > weather.txt  
 
