@@ -76,7 +76,7 @@ Shell variables are only limited to the scope of the shell in which they're crea
 
 Shell variables are created by using `variablename=value`, then to display this use `echo $variablename`. unset variablename deleted the variable. 
 
-Metacharacters include: # for comments, ; seperates commands on the same line, * represents anynumber of characters in a filename pattern, e.g. ls /bin/ba*, ? represents a single character like the * but just one. when quoting with double quotes any $name patterns are evaluated as the variable value, unless the $ is escaped, \$. When using single quotes everything inside is treated literally.
+Metacharacters include: # for comments, ; seperates commands on the same line, * represents any number of characters in a filename pattern, e.g. ls /bin/ba*, ? represents a single character like the * but just one. when quoting with double quotes any $name patterns are evaluated as the variable value, unless the $ is escaped, \$. When using single quotes everything inside is treated literally.
 
 I/O redirection: > redirects output to the file (overwritting), >> appends to output file, 2> redirects error to the file, 2>> append error to file. < redirection to pass file contents to standard input.
 
@@ -89,15 +89,16 @@ There are two runtime modes, batch and concurrent.
 
 ### Progamming Challeges
 
-In the second week there was a practise challenge to get data form wttr.in and parse it out into a report. I got the regex working on the website RegExpr.com, but it didn't work with grep on the command line. Back and forth with Claude for a while and it turned out there were non-visible color characters within the data. Simply adding a parameter to the get request made the returned data work as it was just plain text now. Very annoying problem, without Clause I wouldn't have know what to do in this situation. Frustratinly after I got it working it turns out that in the hint box on the lab instructions it says to use the parameter that Claude recommended. I just hadn't checked because the issue was with grep, not downloading.
+In the second week there was a practise challenge to get data form wttr.in and parse it out into a report. I got the regex working on the website RegExpr.com, but it didn't work with grep on the command line. Back and forth with Claude for a while and it turned out there were non-visible color characters within the data. Simply adding a parameter to the get request made the returned data work as it was just plain text now. Very annoying problem, without Clause I wouldn't have know what to do in this situation. Frustratinly after I got it working it turns out that in the hint box on the lab instructions it says to use the parameter that Claude recommended. I just hadn't checked because the issue was with grep.
+
+Also in the final lab assessment they used new syntax for for loops and if conditionals which was a bit weird.
 
 ### Thoughts on the Course
 
 I looked forward to this module, as I haven't used Bash scripting in over a decade. In the past I mostly used CRON triggered scripts for database backups.
 
-Networking commands took me back, trying to get wifi cards working with OpenSUSE and Ubuntu back in 2006, networking is effortless now.
+Overall it was a good course, a nice and simple introduction into GNU tools and Bash scripting. The scripting was very weird compared to say Python, but it was fun seeing how things could be achieved by piping output to different tools.
 
-This course took x hours.
+The networking commands took me back, I remember trying to get WiFi cards working with OpenSUSE and Ubuntu back around 2006, and working with networking on Ubuntu Server. I can't remember the last time I had to deal with networking on an install, it's effortless now.
 
-
-4;4;4;4;4;2;
+This course took 10 hours.
