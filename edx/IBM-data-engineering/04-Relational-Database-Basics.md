@@ -28,7 +28,7 @@ This module introduced DDL and DML statements, nothing new to me in those that w
 
 The data given to create tables from is shown below
 
-![The data templates](existing_data.png)
+![The data templates](lab-work/04/existing_data.png)
 
 If all the data were to be modelled I would take into account the following:
 
@@ -46,7 +46,7 @@ Annoyingly the ERD tool in pgAdmin doesn't support composite foreign keys in the
 
 The ERD diagram is as below:
 
-![ERD Diagram](erd_diagram.png)
+![ERD Diagram](lab-work/04/erd_diagram.png)
 
 I think I prefer writing the DDL schema out manually rather than using a GUI, and for using psql for exploring the database and its entities and properties.
 
