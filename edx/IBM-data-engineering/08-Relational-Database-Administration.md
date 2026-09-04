@@ -45,12 +45,23 @@ Encryption is another layer of security during rest and transmission.  At rest s
 
 ### Module Three: Monitoring and Optimization
 
+Monitoring is a critical part of database management, the warching of the day to day database status to ensure its health and performance. It helps identify issues in a timely manner. Tasks can include: forecasting future hardware needs on database usage pattersn, analyzing peformance of applications and queries, use of tables and indexes, root cause of performance degredation, assessing impact of optimisation activities.
+
+Reactive monitoring is done after an issue occurrs, could be due to a security breach, or critical performance level is reached. Proactive monitoring seeks to prevent reactive issues, using automated processes to check on health metrics. To start proactive monitoring, you need baseline performance metrics, so as to know when it is out of nominal. These can include determining: peak/off peak hours of operation, typical query and batch command time to run, and time to backup and restore.
+
+There are four levels to monitor KPIs known as metrics: infrastructure, platform, query, and user levels. Infrastructure like OS, Servers, storage hardware, network all work correctly. Instance is at the RDBMS level. Query level, bottlenecks can cause latency, mishandle errors, and reduce mutli query throughput. User level is from issues the users have. Metrics include: database throughput (queries per second), database resource usage, database availability (up or down), database responsiveness shows how well inbound requests are behaving, database contention measures lock waits and long running connections, most frequent queries, and top consumers.
+
+As data and workloads change over time data can become fragmented, and performance can suffer. Optimization can fix bottlenecks, fine tune queries, and reduce response times. 
+
+Indexes are an ordered copy of a columns data to enable efficient searches. Main index type are primary key, which is clustered, in that data stored in the table in order by primary key. Other indexes can be on one or more columns, non-clustered, null allowed or not, unique or not unique.
+
+
 ### Module Four: Troubleshooting and Automation
 
-### Module Five: Final Assessment
+Troubleshootin: What are the symptoms, where is it happening, when does it appear, under which conditions does it occur and is it reproductible. Common problems are performance issues, bad configuration, and poor connectivity. Performance is usally due to high latency for disk reads/writes, slow processing time, poor network connection, or badly writen queries. Bad configuration with bad client configuration could stop connections, server configuration could reduce performance, database configuration might need more connections or increased caching.
+
+Reports, notifications, and alerts are ways of getting information to the DBA. A report is a summary of metrics and data on the database health, created to a schedule. Notifications are when something happens that the DBA needs to track, but isn't pressing. Alerts, email/text etc need urgent attention like low drive space or memory, schedule jobs that fail, or error events in error log. Alerts have can severity thresholods, like warning and critical, for different levels.
 
 ### Thoughts on Course
 
-There are indepth guides on how to setup MySQL but for the PostgreSQL labs this is lacking.
-
-4;4;1;
+This course took eight hours
