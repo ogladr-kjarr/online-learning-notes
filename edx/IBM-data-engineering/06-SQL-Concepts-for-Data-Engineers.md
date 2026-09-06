@@ -4,13 +4,11 @@
 
 ### Module One: Advanced SQL for Data Engineers
 
-A view is a named query, representing data from base tables, that can be queried as if it were a table. They can be used to show subsets of data only necessary for the end user, combining tables to simplify access to the data. In creation it supports most of the options associated with a SELECT command, but cannot be created with the order by clause.
+Views are named queries that can be used as if they were a table in other queries. Useful for creating data products for users that require a subset of data for security/permission reasons, or multiple tables joined to make it easier for users using the end data to have a simple query. They cannot be created with the order by clause. Also materialised views were not mentioned.
 
-Didn't mention marerialized views.
+Stored procedures are a set of named statements executed on the database, that can be written in a range of languages. Then can take parameters, perform CRUD operations, and return results to the caller. By performing operations on the database: network traffic can be reduced via less data being sent back and forth, processing can be quicker as it's happening where the data is, and reuse of code if many apps were performing the same checks on the data.
 
-Stored procedures are a set of named statements executed on the database, written in a range of languages, taking parameters, perform CRUD operations, and return results to the caller. They allow reduction in network traffic as one call can trigger lots of processing, rather than the client calling the processing steps on their side. Improvement in performance as processing happens where the data is located. Finally reuse of code, and increased security where by clients don't need access to the code or data that the stored procedure uses.
-
-A transaction is an indivisible unit of work, either completes or all changes rolled back, cannot leave in an intermediate stage.
+A transaction is an indivisible unit of work, which either completes or all of the changes in the unit of work are rolled back.
 
 ACID transactions:
 * Atomic: All changes are performed or not at all
@@ -34,9 +32,3 @@ LEFT OUTER JOIN DEPARTMENTS AS D
 ON E.DEP_ID = D.DEPT_ID_DEP
 AND YEAR(E.B_DATE) < 1980;
 ```
-
-### Thoughts on the Course
-
-Another course that served mostly as a refresher. I had never coded stored procedures in MySQL before, so that was new. It has been a while so I cannot remember how it compares to Oracle and PostgreSQL PL/SQL an PL/pgSQL.
-
-This course took three hours.

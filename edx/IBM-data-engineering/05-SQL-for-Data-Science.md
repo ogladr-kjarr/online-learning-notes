@@ -8,16 +8,16 @@ A database is a repository of data, the DBMS providing functionality for adding,
 
 Generally, SQL commands allow for: creating a table, inserting data into the table, selecting data from the table, update data in the table, and delete data from the table.
 
-Retrieving data uses the SELECT statement, a DML query statement, which returns a result set. Using a WHERE clause restricts the result set, requiring a predicate (something that evaluates to True, False, or Unknown). There are helpful expressions that can be used with a SELECT statement: COUNT, DISTINCT, and LIMIT. COUNT retrieves the total number of rows returned by the SELECT query. DISTINCT removes duplicate values from a result set. LIMIT restricts the number of rows retrieved by a SELECT statement and can be used in conjuction with the OFFSET expression.
+Retrieving data uses the SELECT statement, a DML query statement, which returns a result set. Using a WHERE clause restricts the result set, requiring a predicate (something that evaluates to True, False, or Unknown). There are helpful expressions that can be used with a SELECT statement: COUNT, DISTINCT, and LIMIT. COUNT retrieves the total number of rows returned by the SELECT query. DISTINCT removes duplicate values from a result set. LIMIT restricts the number of rows retrieved by a SELECT statement and can be used in conjunction with the OFFSET expression.
 
-Insert is another DML statement, where the table and columns are named, followed by the valules for insertion. 
+Insert is another DML statement, where the table and columns are named, followed by the values for insertion. 
 
 ```sql
 INSERT INTO table_name (column1, column2 ...,columnN) 
 VALUES ('v1','v1' ..., 'vN')
 ```
 
-It is possible to insert multiple rows at once seperating the () holding the values with a comma.
+It is possible to insert multiple rows at once separating the () holding the values with a comma.
 
 The update statement is used to modify data in a table.
 
@@ -96,8 +96,6 @@ WHERE LCASE(column1) = 'value1'
 
 Date and time functions are useful for date and time parsing, extracting parts of a date or time.
 
----
-
 Column expressions allow queries to be enclosed as a column in a result set.
 
 ```sql
@@ -162,8 +160,3 @@ conn = sqlite3.Connection("FinalDB.db")
     order by count(*) desc limit 1;
 ```
 
-### Thoughts on the Course
-
-I enjoyed this course, it was fairly basic and just a refresher for me. I appreciated the number of labs it contained, the ability to provide an environment to practise SQL with the MySQL admin GUI, and the ability to spin up Jupyter notebooks to work through as well. The teaching technology is very good.
-
-This course took six and a quarter hours.
