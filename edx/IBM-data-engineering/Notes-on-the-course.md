@@ -39,5 +39,3 @@ This was a good high level course touching on the main points on database admini
 ## Building ETL and Data Pipelines with Bash, Airflow, and Kafka
 
 There were not many labs for this course, but the ones that were had were an interesting introduction to Bash scripting in Apache Airflow. Airflow is a rather cool piece of technology for orchestrating batch jobs. The introduction to Kafka was very brief and shallow.
-
-4;4;4;4;

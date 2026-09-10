@@ -1,0 +1,19 @@
+# EdX: IBM Data Engineering
+
+## Data Warehousing and BI Analytics
+
+### Module One: Data Warehouses, Data Marts, and Data Lakes
+
+A data warehouse is a central repository that aggregates data from one or more sources into a single consistent data store to support data analytics. A data warehouse enables centralisation of disparate data, integration by removing bad data, elimination duplicates, and standardizing the data to create a single source of truth. This empoweres users to use all the companies data. This better the data quality leads to better data access performance and faster business insights leading to smarter decisions. Data warehouses can be an appliance (bundled hardware and software), cloud only, or on premises. They support the strategic requirements of the enterprise.
+
+Some criteria that can be used for evaluating data warehouse implementations can include: location, architecture, ease of implementation, ease of use, support, and costs. Location referes to remote or on premise, important for data security and speed of sending and receiving data. Architecture refers to whether you're ready to commit to a vendor specific architecture and if it is scalable to future needs, supported data types, are batch and streaming supported. Ease of implementation is how easy can staff set it up, is it necessary for contractors, how simple is governance, data migration, optimisation, user management, notifications and reports. Ease of use and skill are how easy is it to train, do your staff have the knoweldge already. Support includes SLAs, and what support is given via the vendor. Costs include the total cost of ownership for running the system for many years which includes licensing, support, infrastructure, migration and integration.
+
+A data mart is smaller than a data warehouse, it exists to support a particular business function or purpose for a select group of workers. For example different departments in a business may have different data marts. They provide relevant data in a timely manner, are cost efficient for informatin data drive decisions and provide secure access to the data. Being smaller than a data warehouse they make it easy for users to find and use the data they need in the format they want. A mart may be dependent, independent, and hybrid. Dependent data marts are a subset of the data warehouse, indepndent are created from other sources, and hybrid merges the previous two. Dependent inherit the security and data quality from the warehouse, independent requires a more complex custom ETL pipeline to create it and there may be security implications. A data mart is a relational database, in either a star or snowflake schema. It has a central fact table of business metrics, surrounded by a related hierarchy of dimension tables that profide context for the facts. Like the warehouse it is an OLAP system.
+
+A data lake is a storage repository that can store strucutured and unstrucutred raw data in large amounts in native format, which is classified and tagged with metadata. You would use a lake if you generate large amounts of data on an onging basis but dont want to be restricted to predefined use cases. A lake can be independent of tech, being deployable on S3, Hadoop, RDBMS, NoSQL and other sources. The benefits include holding any type of data, being scalable storage wise, saving time as not having to define structures and transformations at the start of its use, supports the quick repurposing of data for different uses, and can be used as a staging area before processing for a data warehouse or data mart. A data lake may not conform to governance guidelines though in a way a data warehouse would.
+
+### Module Two: Designing, Modeling and Implementing Data Warehouses
+
+### Module Three: Data Warehouse Analytics
+
+### Module Four: Final Assignment
