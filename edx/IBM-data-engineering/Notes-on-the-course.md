@@ -39,3 +39,11 @@ This was a good high level course touching on the main points on database admini
 ## Building ETL and Data Pipelines with Bash, Airflow, and Kafka
 
 There were not many labs for this course, but the ones that were had were an interesting introduction to Bash scripting in Apache Airflow. Airflow is a rather cool piece of technology for orchestrating batch jobs. The introduction to Kafka was very brief and shallow.
+
+## Data Warehousing and BI Analytics
+
+This was an interesting course, the first to detail the Star and Snowflake schema designs, introducing fact and dimension tables. It also introduced different grouping options like cube. I feel like more time could have gone into the SQL, but at this level the course has to be shallow to cover a wider amount of information.
+
+I was dissapointed in that the third module, that of BI analytics required signing up for a free trial of the IBM offering in this area. There are open source BI analytic dashboard solutions, and I feel it would have been better to use one of those.
+
+4;4;4

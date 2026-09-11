@@ -14,6 +14,16 @@ A data lake is a storage repository that can store strucutured and unstrucutred 
 
 ### Module Two: Designing, Modeling and Implementing Data Warehouses
 
+A general data warehouse architecture is as follows:
+    raw data sources -> staging area for ETL -> EDW repository -> data marts (hub and spoke)-> analytics
+
+Data in a DW is held in either a fact or dimension table. Facts are quantities that can be measured, and a fact table contains only the fact and the surrogate FK's to the dimension tables that provide context for the fact. The dimension tables can be used for filtering, grouping, labelling. A star schema is modelled as a fact table connected to multiple dimension tables, and the dimension tables are all de-normalised. A snowflake schema is a normalised star schema, so the dimension tables are broken up.
+
+Between the raw data and the DW is the staging area, a transient intermediate storage area for ETL processing. A staging area may use a combination of flat files or tables in a staging database. This staging area is used for integration (consolidation of data from multiple sources), cleansing (remove duplicates, null values), and normalizing (all units are the same, consistent types, naming conventions follow). Once out of the initial staging area there are data quality verifications before loading to the DW. High quality and reliable data enables successful integration of data and its relationships. Quality refers to accuracy, completeness, consistency, and currency. Accuracy means de-duplicated records, no types (out of range, outliers, spelling mistakes). Completeness means no nulls found, no haphazard placeholders, nor missing records. Consistency means standard terminology, date formats consistent, measurement units, data consistent (e.g. John Doe vs Mr John Doe). Currency means being up to date with the newest data. With automated data quality test bad data can be detected and quarantined, examined with domain experts, root cause found, and the issue corrected.
+
+In a DW fact tables are dynamic, being added to regularly, while dimensio tables change slowly. Once an initial populating load has occurred, it is then incremental loads. Any dimension tables changing need to have a plan for history, e.g. is it ignored and overwritten, are historic values kept after updates in the same or another history table etc. Periodic maintenance can occur monthly or yearly, so as to archive older or unused data to a less costly storage solution.
+
 ### Module Three: Data Warehouse Analytics
 
-### Module Four: Final Assignment
+I skipped this module. It focused on IBM's BI tool, which I didn't want to sign up for the free trial for.
+
