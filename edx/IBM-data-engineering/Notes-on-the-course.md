@@ -46,4 +46,4 @@ This was an interesting course, the first to detail the Star and Snowflake schem
 
 I was dissapointed in that the third module, that of BI analytics required signing up for a free trial of the IBM offering in this area. There are open source BI analytic dashboard solutions, and I feel it would have been better to use one of those.
 
-4;4;4
+4;4;4;2
