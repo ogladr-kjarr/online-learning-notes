@@ -44,6 +44,24 @@ There were not many labs for this course, but the ones that were had were an int
 
 This was an interesting course, the first to detail the Star and Snowflake schema designs, introducing fact and dimension tables. It also introduced different grouping options like cube. I feel like more time could have gone into the SQL, but at this level the course has to be shallow to cover a wider amount of information.
 
-I was dissapointed in that the third module, that of BI analytics required signing up for a free trial of the IBM offering in this area. There are open source BI analytic dashboard solutions, and I feel it would have been better to use one of those.
+I was disappointed in that the third module, that of BI analytics required signing up for a free trial of the IBM offering in this area. There are open source BI analytic dashboard solutions, and I feel it would have been better to use one of those.
 
 4;4;4;2
+
+## NoSQL Database Basics
+
+Focusing on MongoDB and Cassandra, this course was a little unbalanced. It was fairly shallow in the MongoDB lessons, while the Cassandra lessons were really in depth about replication and partitioning. It has been many years since I last used Cassandra but it came back.
+
+4;4;4;
+
+## Big Data, Hadoop, and Spark Basics
+ 
+A disappointing course, minimal labs, but lots of technical details in the videos that really need hands-on use to get it into memory. The final project was good though, going through common manipulations of data and saving to a store.
+
+4;4;4;2;
+
+## Apache Spark for Data Engineering and Machine Learning
+
+A basic introduction to simple ETL and running regression models. It was a little dissapointing not to see more overlap between Pandas, Polars, and Spark for their data frame manipulation functions. 
+
+4;4;4;1
