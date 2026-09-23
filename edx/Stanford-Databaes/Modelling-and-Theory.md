@@ -25,5 +25,3 @@ The shortcomings of BCNF and 4NF are that they may decompose too far for usefuln
 ### Unified Modelling Language
 
 ER used to be the main model for design, however now the UML model is now the preferred model.
-
-4;4;3;
