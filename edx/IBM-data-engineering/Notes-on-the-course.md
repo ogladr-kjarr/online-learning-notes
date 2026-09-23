@@ -65,3 +65,6 @@ A disappointing course, minimal labs, but lots of technical details in the video
 A basic introduction to simple ETL and running regression models. It was a little dissapointing not to see more overlap between Pandas, Polars, and Spark for their data frame manipulation functions. 
 
 4;4;4;1
+
+
+Overall short videos, hands on labs, great labs for databases, applications, jupter labs. Not an usual long lecture type course. labs had running instances of mysql postgres, cassandra, mongodb, docker, airflow, and jupyter labs hwas a self contained programming environment for Spark and ETL training.
