@@ -52,5 +52,3 @@ FROM sales
 GROUP BY storeid, itemid, custid
 WHERE storeid = wa AND color=red
 ```
-
-4;
