@@ -139,7 +139,7 @@ While cursor methods include:
 * arraysize()
 * close()
 
-Introduced magic statements in Jupyter notebooks, with inline sql commands using %sql.
+Introduced magic statements in Jupyter notebooks, with inline SQL commands using %sql.
 
 ### Module Five: Project
 

@@ -4,10 +4,10 @@
 
 ### Module One: Get Started with Machine Learning
 
-Machine learning is the sub-field of computer science that gives computers the ability to learn without being explicitly programmed. AI mimics human abilities like computer vision, language processing, creativity, and summarising. Machine learning is for classification, clustering, neural networks, by teaching the computer using training data to then create prediction data. Deep learning in ML is where computers cna learn and make intelligent decisions independently. There are two categories of ML, supervised learning (regression, classification, labelled data) and unsupervised learning (unlabelled data, clustering).
+Machine learning is the sub-field of computer science that gives computers the ability to learn without being explicitly programmed. AI mimics human abilities like computer vision, language processing, creativity, and summarising. Machine learning is for classification, clustering, neural networks, by teaching the computer using training data to then create prediction data. Deep learning in ML is where computers can learn and make intelligent decisions independently. There are two categories of ML, supervised learning (regression, classification, labelled data) and unsupervised learning (unlabelled data, clustering).
 
 Data collection process:
-* step 1: dstablish data requirements, specifying the data needed, and the data sources
+* step 1: establish data requirements, specifying the data needed, and the data sources
 * step 2: establish sources, evaluate quality, relevance, reliability, accessibility, and cost
 * step 3: collect data, ensuring consistency and structure
 
@@ -28,7 +28,7 @@ Data storage and management:
 Data transformations and feature extraction:
 * step 1: feature selection (identify relevant features for analysis)
 * step 2: feature scaling to a common scale so they are comparable
-* step 3: feature enginering, create new features to enhance the dataset
+* step 3: feature engineering, create new features to enhance the dataset
 * step 4: dimensional reduction, reduce features while maintaining characteristics
 * step 5: encode categorical variables, into numerical representations
 * step 6: data imputation: filling in missing values

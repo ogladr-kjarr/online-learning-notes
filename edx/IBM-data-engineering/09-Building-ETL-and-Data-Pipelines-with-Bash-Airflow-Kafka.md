@@ -8,7 +8,7 @@ An ETL process is an automated data pipeline, starting with raw data and process
 
 ELT is emerging as a new paradigm as cloud resources become cheap and plentiful. As it stores the raw data before any transformation there is no data loss, e.g. via daily/monthly averages in ETL where the raw data is discarded. It allows for interactive and dynamic transform processes as it is schema on read, as opposed to schema on write. It is faster than ETL as processing happens in the data store where the data is located. It deals better with big data, streaming analytics, and integration of highly distributed data.
 
-### Module Two: ETL & Data Pipelines: Tools and Techniqueso
+### Module Two: ETL & Data Pipelines: Tools and Techniques
 
 A data pipeline is a number of sequential processes, where the output of one is the input of another. The purpose is to move data from one place to another or from one form to another. Performance metrics includes: latency, which is the total time for a single packet to go through the pipeline, and throughput, which refers to how much data can go through the pipeline  per unit of time.
 
@@ -16,7 +16,7 @@ Use cases include: backup up files to other source, integrating multiple data so
 
 Monitoring a pipe line is important, as there can be issues such as: high latency, low throughput, errors or failures in the network or source/destination system. Monitoring is also necessary for cost considerations, so keeping track of hardware utilisation rate. If there are issues with latency or throughput this means the pipeline is unbalanced, and may be addressed through parallelisation. IO buffers can also help synchronise pipelines by establishing a holding area.
 
-Batch loading is used when data sets need to be extracted and operated on as one unit, run on a schedule based on periodic triggers. It is good when recency of data is not needed, and accuracy is. Stream loading is for ingesting packets of data for real time results being processed as they occur. The decision is a trade-off between accuracy and latency. A lambda architecture combines them. Batch use cases are periodic backups, transactional history, retrospective data analysis, while streaming use cases are social media feeds, fraud detection, recommender systems, credit card transactions.
+Batch loading is used when data sets need to be extracted and operated on as one unit, run on a schedule based on periodic triggers. It is good when recent data is not needed, and accuracy is. Stream loading is for ingesting packets of data for real time results being processed as they occur. The decision is a trade-off between accuracy and latency. A lambda architecture combines them. Batch use cases are periodic backups, transactional history, retrospective data analysis, while streaming use cases are social media feeds, fraud detection, recommend-er systems, credit card transactions.
 
 ### Module Three: Building Data Pipelines using Airflow
 
@@ -25,7 +25,7 @@ So what this taught me is that Airflow fails when Bash commands are not properly
 
 ### Module Four: Building Streaming Pipelines using Kafka
 
-Event stream platform (ESP) takes events, which describes an entities observable state updates over time. These updates could be the gps of a moving car, temperature from a sensor, or the RAM usage of a server over time. Common event formats include: string primitive, key value pair, timestamped key value pair.
+Event stream platform (ESP) takes events, which describes an entities observable state updates over time. These updates could be the GPS of a moving car, temperature from a sensor, or the RAM usage of a server over time. Common event formats include: string primitive, key value pair, timestamped key value pair.
 
 ### Module Five: Assessment
 

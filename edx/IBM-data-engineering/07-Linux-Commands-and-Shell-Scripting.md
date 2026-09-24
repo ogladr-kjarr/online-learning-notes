@@ -84,7 +84,6 @@ Command line arguments pass these to the script, e.g. `./script.sh arg1 arg2`
 
 There are two runtime modes, batch and concurrent.
 
-
 ### Progamming Challeges
 
 In the second week there was a practise challenge to get data form wttr.in and parse it out into a report. I got the regex working on the website RegExpr.com, but it didn't work with grep on the command line. Back and forth with Claude for a while and it turned out there were non-visible colour characters within the data. Simply adding a parameter to the get request made the returned data work as it was just plain text then. Very annoying problem, without Claude I wouldn't have know what to do in this situation. Frustratingly after I got it working it turns out that in the hint box on the lab instructions it says to use the parameter that Claude recommended. I just hadn't checked because the issue was with grep, not the request.
