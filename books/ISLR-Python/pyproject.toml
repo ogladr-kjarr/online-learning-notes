@@ -4,9 +4,18 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "debugpy==1.8.21",
+    "ipython==9.16.0",
+    "ipython-pygments-lexers==1.1.1",
+    "jupyter-client==8.9.1",
+    "jupyter-core==5.9.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+]
 
 [dependency-groups]
 dev = [
-    "ipykernel>=7.4.0",
+    "ipykernel==7.3.0",
 ]
